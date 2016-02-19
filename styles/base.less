@@ -241,6 +241,14 @@ atom-text-editor .search-results .marker.current-result .region,
     }
   }
 
+  &.section {
+    &.css {
+      &.function {
+        color: @dark-grey;
+      }
+    }
+  }
+
   &.section.embedded {
     color: darken(@red, 10%);
   }
@@ -328,6 +336,18 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .meta {
+  &.css {
+    &.property-value {
+      color: @dark-grey;
+    }
+  }
+
+  &.html {
+    &.tag {
+      color: @dark-grey;
+    }
+  }
+
   &.class {
     color: @green;
   }

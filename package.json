@@ -1,11 +1,13 @@
 {
   "name": "udacity-syntax",
   "theme": "syntax",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Official Udacity Syntax Theme for Atom",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "udacity",
+    "light"
   ],
   "repository": "https://github.com/udacity/atom-theme-content",
   "license": "MIT",
