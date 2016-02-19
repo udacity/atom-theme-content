@@ -1,7 +1,5 @@
 # Official Udacity Syntax Theme for Atom
 
-## Installation
-
 Current supports syntax highlighting for:
 * HTML
 * CSS
