@@ -1,5 +1,11 @@
-# udacity-syntax theme
+# Official Udacity Syntax Theme for Atom
 
-A short description of your theme.
+## Installation
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+
+Current supports syntax highlighting for:
+* HTML
+* CSS
+* JavaScript
+
+(Not that it'll break if you try to use any other language, it's just that they haven't been configured.)
