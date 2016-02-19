@@ -196,8 +196,19 @@ atom-text-editor .search-results .marker.current-result .region,
     &.property-list {
       color: @dark-grey;
     }
+    &.separator {
+      color: @dark-grey;
+    }
+    &.terminator {
+      color: @dark-grey;
+    }
   }
   &.definition {
+    &.css {
+      &.constant {
+        color: @teal;
+      }
+    }
     &.tag {
       color: @dark-grey;
       font-weight: bold;
