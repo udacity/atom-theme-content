@@ -2,7 +2,6 @@
 
 ## Installation
 
-
 Current supports syntax highlighting for:
 * HTML
 * CSS
