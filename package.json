@@ -1,7 +1,7 @@
 {
   "name": "udacity-syntax",
   "theme": "syntax",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Official Udacity Syntax Theme for Atom",
   "keywords": [
     "syntax",
