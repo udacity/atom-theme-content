@@ -97,6 +97,10 @@ atom-text-editor .search-results .marker.current-result .region,
   &.other.unit {
     color: @aqua;
   }
+
+  &.python {
+    color: @red;
+  }
 }
 
 .storage {
@@ -113,6 +117,11 @@ atom-text-editor .search-results .marker.current-result .region,
         font-style: italic;
       }
     }
+  }
+
+  &.python {
+    color: @aqua;
+    font-style: italic;
   }
 }
 
@@ -152,6 +161,11 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @teal;
     }
   }
+
+  &.python {
+    color: @teal;
+  }
+
 }
 
 .variable {
@@ -168,6 +182,11 @@ atom-text-editor .search-results .marker.current-result .region,
     }
     &.css {
       color: @orange;
+    }
+
+    &.python {
+      color: @orange;
+      font-style: italic;
     }
   }
 }
@@ -195,6 +214,11 @@ atom-text-editor .search-results .marker.current-result .region,
   &.other.link {
     color: @blue;
   }
+
+  &.python {
+    color: @yellow;
+  }
+
 }
 
 .punctuation {
@@ -209,6 +233,7 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @dark-grey;
     }
   }
+
   &.definition {
     &.css {
       &.constant {
@@ -231,6 +256,11 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.string {
       color: @orange;
+
+      &.python {
+        color: @yellow;
+      }
+
     }
 
     &.heading,
@@ -275,6 +305,11 @@ atom-text-editor .search-results .marker.current-result .region,
     &.any-method {
       color: @blue;
     }
+
+    &.builtin.python {
+      color: @green;
+    }
+
   }
   &.css {
     &.property-name {
@@ -289,6 +324,12 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @aqua;
     }
   }
+
+  &.type.exception {
+    color: @blue;
+    font-style: italic;
+  }
+
 }
 
 .entity {
@@ -337,6 +378,16 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.id {
       color: @dark-grey;
+    }
+  }
+
+  &.python {
+    &.decorator {
+      color: @blue;
+    }
+
+    &.inherited-class {
+      font-style: italic;
     }
   }
 }
